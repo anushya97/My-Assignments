@@ -30,7 +30,6 @@ public class CreateLead {
 		driver.findElement(By.partialLinkText("Create Lead")).click();
 		System.out.println("clicked on Create Lead");
 
-		driver.findElement(By.id("createLeadForm_companyName")).sendKeys("Cognizant");
 		driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Anushya");	
 		driver.findElement(By.id("createLeadForm_lastName")).sendKeys("N");
 		driver.findElement(By.id("createLeadForm_firstNameLocal")).sendKeys("Anushya");
